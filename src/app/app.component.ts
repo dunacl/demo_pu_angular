@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AwesomeTest';
+  status : boolean = false;
+
+  multiply (x : number, y : number) : number {
+    return x * y;
+  }
+
+  getFriday() : string {
+    return 'Friday';
+  }
 }

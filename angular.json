@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AwesomeTest"
+    }
+  },
+  "defaultProject": "AwesomeTest",
+  "cli": {
+    "analytics": false
+  }
 }
